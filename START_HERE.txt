@@ -1,0 +1,7 @@
+1. Install Python 3.11 or newer.
+2. Open Command Prompt in this folder.
+3. Run: python -m venv venv
+4. Run: venv\Scripts\activate
+5. Run: pip install -r requirements.txt
+6. Run: python main.py
+7. Or double-click run_assistant.bat
