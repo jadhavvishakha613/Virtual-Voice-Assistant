@@ -1,9 +1,35 @@
-**Virtual Voice Assistant | Python**
+# 🎙️ Virtual Voice Assistant
 
-* Developed a Python-based voice assistant capable of understanding spoken commands and performing common desktop and web-based tasks.
-* Integrated **SpeechRecognition** for converting microphone input into text and **pyttsx3** for generating voice responses.
-* Implemented automated actions such as **Google searches, website navigation, opening Windows applications, and retrieving date/time information**.
-* Added basic system information and command-handling functionality through a modular command-routing structure.
-* Organized the project into separate modules for **voice processing, command execution, configuration, and assistant logic**, making the system easy to maintain and extend.
+A lightweight Python-based voice assistant that listens to spoken commands and performs useful desktop and web tasks.
 
-**Tech Stack:** Python, SpeechRecognition, pyttsx3, PyAudio, Web Browser, Windows Subprocess
+## ✨ Features
+
+- 🎤 Speech-to-text using a microphone
+- 🔊 Text-to-speech responses
+- 🌐 Google search and website navigation
+- 🖥️ Opens Windows applications
+- 🕒 Provides date and time
+- 💻 Displays basic system information
+- 🧩 Modular command handling
+
+## 🛠️ Tech Stack
+
+- **Python 3.10+**
+- **SpeechRecognition**
+- **pyttsx3**
+- **PyAudio**
+- **Web Browser**
+- **Windows Subprocess**
+
+## 📁 Project Structure
+
+```text
+Virtual_Voice_Assistant/
+│
+├── main.py
+├── assistant.py
+├── voice.py
+├── commands.py
+├── config.py
+├── requirements.txt
+└── README.md
